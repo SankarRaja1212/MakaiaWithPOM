@@ -232,6 +232,7 @@ public class WebDriverServiceImpl extends WebDriverListener implements WebDriver
 	public void verifyURL()
 	{
 	System.out.println("URL Verified");
+	System.out.println();
 	}
 	
 	
