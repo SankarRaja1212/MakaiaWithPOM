@@ -251,6 +251,10 @@ public class WebDriverServiceImpl extends WebDriverListener implements WebDriver
 		Actions builder = new Actions(driver);
 		builder.moveToElement(ele).perform();
 	}
-		
+
+	
+	public String getCurrentURL() {
+		return driver.getCurrentUrl();
+	}
 
 }
