@@ -229,6 +229,13 @@ public class WebDriverServiceImpl extends WebDriverListener implements WebDriver
 		
 	}
 
+	public void verifyURL()
+	{
+	System.out.println("URL Verified");
+	}
+	
+	
+	
 	public void closeAllBrowsers() {
 		// TODO Auto-generated method stub
 		
@@ -243,4 +250,6 @@ public class WebDriverServiceImpl extends WebDriverListener implements WebDriver
 		Actions builder = new Actions(driver);
 		builder.moveToElement(ele).perform();
 	}
+		
+
 }
